@@ -1,33 +1,109 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const stockHalloween = [
+    { name: "Mucha",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 140,
+    stock: 1, 
+    category:"cat",
+    },
+    { name: "Plum",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg“,
+    prix: 500,
+    stock: 1, 
+    category:"cat",
+    },
+    { name: "Moustache",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 60,
+    stock: 4, 
+    category:"cat",
+    },
+    { name: "Gnome Lubrique",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 69,
+    stock: 6, 
+    category:"gnomes",
+    },
+    { name: "Gnome Velu",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 46,
+    stock: 2, 
+    category:"gnomes",
+    },
+    { name: "Gnome Précieux",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 99,
+    stock: 9, 
+    category:"gnomes",
+    },
+    { name: "Gnome Glabre",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 30,
+    stock: 2, 
+    category:"gnomes",
+    },
+    { name: "Gnome Hirsute",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 209,
+    stock: 12, 
+    category:"gnomes",
+    },
+    { name: "Nain Posteur",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 398,
+    stock: 1, 
+    category:"nains",
+    },
+    { name: "Nain Gomez",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 48,
+    stock: 2, 
+    category:"nains",
+    },
+    { name: "Nain DeuxTrois",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 82
+    stock: 23, 
+    category:"nains",
+    },
+    { name: "Nain Portequoi",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 976,
+    stock: 2, 
+    category:"nains",
+    },
+    { name: "Butternut",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 10,
+    stock: 26, 
+    category:"courges",
+    },
+    { name: "Citrouille",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 20,
+    stock: 45, 
+    category:"courges",
+    },
+    { name: "Spaghetti",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 17,
+    stock: 200, 
+    category:"courges",
+    },
+    { name: "Potiron",
+    image: "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+    prix: 12,
+    stock: 2, 
+    category:"courges",
+    },
+    ]
+    
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     
     </>
   )
 }
