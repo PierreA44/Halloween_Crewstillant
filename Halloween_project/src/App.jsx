@@ -9,6 +9,8 @@ function App() {
       name: "Mucha",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 140,
       stock: 1,
       category: "cat",
@@ -17,6 +19,8 @@ function App() {
       name: "Plum",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 500,
       stock: 1,
       category: "cat",
@@ -25,6 +29,8 @@ function App() {
       name: "Moustache",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 60,
       stock: 4,
       category: "cat",
@@ -33,6 +39,8 @@ function App() {
       name: "Gnome Lubrique",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 69,
       stock: 6,
       category: "gnomes",
@@ -41,6 +49,8 @@ function App() {
       name: "Gnome Velu",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 46,
       stock: 2,
       category: "gnomes",
@@ -49,6 +59,8 @@ function App() {
       name: "Gnome Précieux",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 99,
       stock: 9,
       category: "gnomes",
@@ -57,6 +69,8 @@ function App() {
       name: "Gnome Glabre",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 30,
       stock: 2,
       category: "gnomes",
@@ -65,6 +79,8 @@ function App() {
       name: "Gnome Hirsute",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 209,
       stock: 12,
       category: "gnomes",
@@ -73,6 +89,8 @@ function App() {
       name: "Nain Posteur",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 398,
       stock: 1,
       category: "nains",
@@ -81,6 +99,8 @@ function App() {
       name: "Nain Gomez",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 48,
       stock: 2,
       category: "nains",
@@ -89,6 +109,8 @@ function App() {
       name: "Nain DeuxTrois",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 82,
       stock: 23,
       category: "nains",
@@ -97,6 +119,8 @@ function App() {
       name: "Nain Portequoi",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 976,
       stock: 2,
       category: "nains",
@@ -105,6 +129,8 @@ function App() {
       name: "Butternut",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 10,
       stock: 26,
       category: "courges",
@@ -113,6 +139,8 @@ function App() {
       name: "Citrouille",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 20,
       stock: 45,
       category: "courges",
@@ -121,6 +149,8 @@ function App() {
       name: "Spaghetti",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 17,
       stock: 200,
       category: "courges",
@@ -129,6 +159,8 @@ function App() {
       name: "Potiron",
       image:
         "https://astatic.aquamagasin.com/image/cache/catalog/pieces-detachees/visuel-non-disponible-600x600.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio et pariatur nostrum eos eligendi.",
       prix: 12,
       stock: 2,
       category: "courges",
@@ -138,7 +170,7 @@ function App() {
   return (
     <>
       <Header />
-      <ProductList />
+      <ProductList stockHalloween={stockHalloween} />
       <Footer />
     </>
   );
