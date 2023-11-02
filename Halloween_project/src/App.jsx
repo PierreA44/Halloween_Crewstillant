@@ -1,7 +1,7 @@
-import "./App.css";
-import CardList from "./components/CardList";
+import "./style.scss";
+import ProductList from "./components/ProductList";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 function App() {
   const stockHalloween = [
@@ -137,8 +137,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <CardList />
+      <Header />
+      <ProductList />
       <Footer />
     </>
   );

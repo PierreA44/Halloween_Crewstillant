@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-function CardList() {
+function ProductList() {
   return (
     <>
       <div>My Products</div>
@@ -9,4 +9,4 @@ function CardList() {
   );
 }
 
-export default CardList;
+export default ProductList;
