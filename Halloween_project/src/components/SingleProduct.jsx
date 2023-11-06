@@ -1,13 +1,16 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
+import CountContext from "./CountContext";
 
-function SingleProduct({ name, image, prix, stock, count, setCount, id }) {
+function SingleProduct({ name, image, prix, stock, id }) {
   const [stockProduct, setStockProduct] = useState(stock);
+  const { count, setCount, price, setPrice } = useContext(CountContext);
 
   const handleClick = () => {
     setStockProduct(stockProduct - 1);
     setCount(count + 1);
+    setPrice(price + prix);
   };
 
   return (
